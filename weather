@@ -1,164 +1,19 @@
 <!DOCTYPE html>
-<html lang="zh">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Game of Thrones</title>
-    <link rel="stylesheet" href="">
+    <title>Document</title>
+    <link rel="stylesheet" href="http://at.alicdn.com/t/font_668835_fq84alohigj5rk9.css">
+    
     <style>
-        /* reset */
-        * {
-            box-sizing: border-box;
-            margin: 0px;
-            padding: 0px;
-        }
-        a {
-            text-decoration: none;
-        }
-        ul {
-            list-style: none;     
-        }
-        /* commom css */
-        clearfix::after {
-            content: '';
-            display: block;
-            clear: both;
-        }
-        html,body {
-            height: 100%;
-        }
-        header {
-            height: 100%;
-            
-            background: black url(https://chenleoxx.github.io/demos/companypage/images/首页2.jpg) center no-repeat;
-            background-size: cover; 
-        }
-        header::before {
-            content: '';
-            display: block;
-            position: absolute;
-            left: 0;
-        }
-        body {
-            font: 14px/1.5 arial;
-            background: #eee;
-            color: #333444;
-        }
-        .button {
-            font-size: 18px;
-            color: #fff;
-            background-color: #f7ba3e;
-            padding:5px 10px;
-            display: inline-block;
-            border-radius: 4px;
-            opacity: 0.8;
-        }
-        /* css */
-        @font-face {
-  font-family: 'i123';  /* project id 668835 */
-  src: url('http://at.alicdn.com/t/font_668835_kdupd3o08yhw7b9.eot');
-  src: url('http://at.alicdn.com/t/font_668835_kdupd3o08yhw7b9.eot?#iefix') format('embedded-opentype'),
-  url('http://at.alicdn.com/t/font_668835_kdupd3o08yhw7b9.woff') format('woff'),
-  url('http://at.alicdn.com/t/font_668835_kdupd3o08yhw7b9.ttf') format('truetype'),
-  url('http://at.alicdn.com/t/font_668835_kdupd3o08yhw7b9.svg#iconfont') format('svg');
-}
-    p#lin {
-      font-family: i123 ;
-    }
-            .botton:hover {
-                opacity: 1;
-            }
-            header .logo {
-                color: #f7ba3e;
-                margin-top: 50px;
-                font-size: 32px;
-                float: left;
-            }
-            header .nav {
-                float: right;
-            }
-            header .nav>li {
-                float: left;
-            }
-            header .nav a {
-                color: #fff;
-                font-size: 16px;
-                display: inline-block;
-                padding: 5px;
-            }
-            header .intro{
-                position: absolute;
-                top: 50%;
-                left: 0;
-                right: 0;
-                color: #fff;
-                text-align: center;
-                
-            }
-             header .intro h1 {
-                 font-size: 32px;
-             }
-             header .intro h2 {
-                 font-size: 4px;
-                 margin-top: 20px;
-             }
-             .layout section {
-                 text-align: center;
-                 padding: 15px; 
-                 line-height: 1.5;
-             }
+    
+    
     </style>
 </head>
 <body>
-    <p id="lin">&#xe617;</p>
-    <header>
-        <div class="navbar clearfix">
-        <nav>
-            <a href="" class="logo">Game of Thrones</a>
-            <ul class="nav">
-                <li><a href="#">SERVICES</a></li>
-                <li><a href="#">FAMILY</a></li>
-                <li><a href="#">CHARACTER</a></li>
-                <li><a href="#">TEAM</a></li>
-                <li><a href="#">CONTACT</a></li>
-            </ul>
-            <div class="intro">
-            <h1>WINTER IS COMMING</h1>
-            <h2>ALONE WOLF DEATH, WOLVES LIVE.</h2>
-            <a href="#" class="button">Tell me more</a>
-            </div>
-        </nav>
-        </div>
-    </header>
-    <main class="layout">
-        <section>
-            <h2>家族介绍</h2>
-            <p>关于各个家族的介绍</p>
-            <ul>
-            <li>
-                <span class="duoyunye"></span>
-                <h3>111111111</h3>
-            </li>
-            <li>
-                <span class="iconfont"></span>
-                <h3>2222222222</h3>
-            </li>
-            <li>
-                <span class="iconfont icon-baocun"></span>
-                <h3>&#xe617;&#xe604;</h3>
-            </li>
-            </ul>
-        </section>
-        <section>
-            <h2>Service</h2>
-            <p>My Service</p>
-        </section>
-        <section>
-            <h2>Service</h2>
-            <p>My Service</p>
-        </section>
-    </main>
-    <footer></footer>
+    <p class="iconfont icon-cloudy"></p>
+    
 </body>
 </html>
