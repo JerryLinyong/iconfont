@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0;
+            color: white;
+        }
+        div {
+            margin-top: 30px;
+            margin-left: 10%;
+            margin-right: 10%;
+            border-radius: 3px;
+            max-width: 800px;
+        }
+        p {
+            padding: 10px;
+            padding-bottom: 20px;
+            padding-left: 20px;
+        }
+        h1 {
+            padding: 10px;
+            font-size: 25px;
+        }
+        a {
+            float: right;
+            margin-right: 10px;
+            font-weight: bolder;
+            font-size: 25px;
+            text-decoration: none;
+           
+        }
+        div:nth-child(1) {
+            background: #4caf4f;
+        }
+        div:nth-child(2) {
+            background: #2296f3;
+        }
+        div:nth-child(3) {
+            background: #f44236;
+        }
+        div:nth-child(4) {
+            background:#ff9800;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <a href="#">×</a>
+        <h1>恭喜你</h1>
+        <p>获得本周学霸，继续加油吧</p>
+    </div>
+    <div>
+        <a href="#">×</a>
+        <h1>通知</h1>
+        <p>晚上上课，不要忘了</p>
+    </div>
+    <div>
+        <a href="#">×</a>
+        <h1>天啊</h1>
+        <p>竟然几天没做任务</p>
+    </div>
+    <div>
+        <a href="#">×</a>
+        <h1>警告</h1>
+        <p>学如逆水行舟，不进则退</p>
+    </div>
+</body>
+</html>
